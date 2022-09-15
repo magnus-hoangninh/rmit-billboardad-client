@@ -1,0 +1,32 @@
+.tab-header {
+    margin: 1rem 0 0.5rem;
+}
+
+/* FOR MY BILLBOARDS TAB */
+.btn-container {
+    padding: 20px 12px 0;
+    margin-top: 7px;
+}
+
+.create-new-btn {
+    width: 100%;
+    font-size: 20px;
+}
+
+.list-mes {
+    align-items: center;
+    margin-left: 40px;
+}
+
+.mes-contain {
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.mes-detail.th {
+    margin-left: 10px;
+    padding: 10px;
+}

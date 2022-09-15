@@ -1,0 +1,40 @@
+.navbar {
+    padding: 0;
+    margin: 0;
+    background-color: #17252A;
+    color: #fff;
+    padding: 0 7.5%;
+}
+.logo {
+    color: #fff !important;
+    font-size: 2rem;
+}
+.navbar .link {
+    padding: 9px 16px !important;
+    font-size: 18px !important;
+}
+.navbar .link:hover, .navbar .link.active {
+    font-weight: bold !important;
+}
+
+#log-in-btn {
+    padding: 9px 24px !important;
+    font-size: 18px;
+    background-color: #3aafa9;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+#log-in-btn:hover{
+    background-color: #2b7a78;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        padding: 0;
+    }
+}

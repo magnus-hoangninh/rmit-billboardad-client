@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+
+.container {
+  font-family: "Spectral", serif;
+  font-size: 18px;
+  position: relative;
+}
+.main-body {
+  padding: 15px;
+  margin-top: 12px;
+}
+
+.input {
+  margin: 10px 0px;
+}
+
+.input-name {
+  margin: 15px;
+}
+
+.input-name input {
+  width: 40%;
+  padding: 0;
+}
+.input-name div {
+  padding: 0;
+}
+.text {
+  color: #3aafa9;
+  padding: 0;
+}
+
+.img-thumbnail {
+  width: 150px;
+  display: inline;
+  border-radius: 50%;
+}
+
+
+.radio {
+  margin-left: 7px;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+.btnUpdate {
+  margin: 0px 10px;
+  background: #ffffff;
+  border: 0.5px solid #3aafa9;
+  border-radius: 5px;
+  color: #3aafa9;
+  float: right;
+}
+.btnReset {
+  background: #ffffff;
+  border: 0.5px solid #3aafa9;
+  border-radius: 5px;
+  color: red;
+  float: right;
+}
+
+.displayError {
+  color: red;
+  display: contents;
+}
+
+.update-btn {
+  margin: 10px 0px;
+  padding-right: 100px;
+  position: relative;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.col-8{
+  background: rgb(223, 218, 218);
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 198, 198);
+}
+
+.col-4 {
+  background:rgb(230, 225, 225);
+  border: 1px solid rgb(223, 218, 218);
+  padding: 5px;
+}
+
+.form.input {
+  padding: 10px;
+}
+
+.col-4.input.text {
+  border-radius: 5px;
+}
+
+input#file-input,input#upd-file {
+  display: none;
+}
+
+input#file-input+ label,input#upd-file + label {
+  background-color: #3aafa9;
+  padding: 8px;
+  color: #ffffff;
+  border: 2px solid #43e5dd;
+  border-radius: 9px;
+  margin: 5px;
+  align-items: center;
+}
+
+input#file-input+label:hover,input#upd-file+label:hover {
+  background-color: #01ddd2;
+  border-color: rgb(40, 230, 195);
+  cursor: pointer;
+}
+
+form {
+  align-items: center;
+  padding: auto;
+}
+
+.img-thumbnail{
+  align-items: center;
+}
+
+.ohhh {
+  border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spectral', sans-serif;
+}
+
+body {
+  background: #feffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html h1 {
+  font-size: 40px;
+}
+
+html h2 {
+  font-size: 32px;
+}
+
+html a {
+  text-decoration: none;
+  color: #000;
+}
+
+html main {
+  min-height: calc(100vh - 70px);
+}
+
+.container {
+  margin: 30px auto;
+}
+
+/* STYLES FOR FILTER SECTION */
+.filters {
+  margin: 20px 0;
+}
+
+/* STYLE FOR BUTTONS */
+.btn {
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.box {
+  width: 18rem;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid;
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid > div {
+  width: 20%;
+  height: 30%;
+}
+
+.word {
+  align-items: center;
+}

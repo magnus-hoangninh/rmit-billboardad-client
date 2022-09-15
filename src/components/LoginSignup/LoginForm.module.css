@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+
+.box {
+  font-family: "Spectral", serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  background: #def2f1;
+  border: 1px solid #def2f1;
+  border-radius: 25px;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.form {
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+.title {
+  margin: 40px 0px 5px;
+  font-size: 30px;
+}
+
+.error {
+  color: red;
+  float: left;
+  display: contents;
+}
+
+.input {
+  margin-bottom: 10px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.input label {
+  float: left;
+}
+
+.input input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #def2f1;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #3aafa9;
+  border-radius: 50px;
+  border: 1px solid #def2f1;
+  width: 7em;
+  height: 2em;
+  font-size: 17px;
+  color: white;
+  margin: 5px;
+}
+
+.switch {
+  margin: 10px 0px 25px;
+  font-weight: bold;
+}
+
+.switch a {
+  color: #3aafa9;
+}
+
+.switch a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.switch a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1050px) {
+  .box {
+    width: 30%;
+  }
+
+  .form {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .box {
+    width: 40%;
+  }
+
+  .form {
+    max-width: 65%;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .box {
+    width: 55%;
+  }
+  .form {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .box {
+    width: 80%;
+  }
+  .form {
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,25 @@
+.content {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#contact-us-link {
+    color: #3aafa9;
+    transition: all 0.5s ease;
+}
+
+#contact-us-link:hover {
+    font-weight: bold;
+    color: #2b7a78;
+}
+
+.update-txt {
+    text-align: right;
+    font-style: italic;
+}
+
+@media screen and (max-width: 576px) {
+    .page-name{
+        text-align: center;
+    }
+}

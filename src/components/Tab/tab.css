@@ -1,0 +1,52 @@
+.tab-container {
+    background: white;
+    z-index: 1;
+    border-radius: 5px ;
+    justify-content: center;
+}
+
+.tab {
+    font-size: 20px;
+    padding: 0.5rem 0;
+    color: #000;
+    transition: all 0.5s ease;
+    text-align: left !important;
+    margin: auto;
+    border-radius: 5px ;
+    border: #000 0.5px;
+}
+
+.nav{
+    padding: 5px;
+}
+
+
+.tab.active,
+.tab:hover {
+    font-weight: bold;
+    color: #000000;
+    background: rgb(225, 222, 222);
+}
+
+.tab.active {
+    border-bottom: 2.5px solid #3aafa9;
+}
+
+@media screen and (max-width: 992px) {
+    .tab-container {
+        position: sticky;
+        top: 0px;
+    }
+
+    .tab-container .tab {
+        padding: 0.5rem 1rem;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tab-name {
+        display: none;
+    }
+}
+

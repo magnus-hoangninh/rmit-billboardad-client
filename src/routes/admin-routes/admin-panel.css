@@ -1,0 +1,99 @@
+/* GENERAL STYLING */
+.table td, .table th {
+    text-align: center;
+    align-items: center;
+}
+
+.table .btn {
+    margin: 2.5px 5px;
+}
+
+.editor-btn-container {
+    text-align: center;
+}
+.editor-btn-container .btn {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.secondary {
+    background: #999;
+}
+
+.secondary:hover {
+    background: #555;
+}
+
+.danger {
+    background: #f00;
+}
+.danger:hover {
+    background: #900;
+}
+
+.create-new-btn {
+    width: fit-content;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .table-box {
+        overflow-x: scroll;
+    }
+}
+
+/* FOR DASH BOARD PAGE */
+.general-data-column {
+    margin: 10px 0;
+}
+.general-data-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+.number {
+    font-size: 30px;
+    font-weight: bold;
+}
+.general-data-icon {
+    position: relative;
+    font-size: 40px;
+    align-items: center;
+    color: #3aafa9;
+}
+
+/* FOR CRUD PAGES */
+.back-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.back-link:hover {
+    color: #3aafa9;
+    font-weight: bold;
+}
+
+.editor-box textarea, .create-new-modal textarea {
+    min-height: 200px;
+}
+
+.body {
+    background: linear-gradient(45deg, #80c0c0,#99cccc,#b3d9d9,#cce6e6);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

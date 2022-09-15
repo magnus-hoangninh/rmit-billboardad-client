@@ -1,0 +1,36 @@
+.panel {
+    margin: 20px 0;
+}
+
+.panel-title {
+    border-bottom: 2.5px solid #2b7a78;
+    padding: 5px 0;
+}
+
+.collapse-control {
+    color: #2b7a78 !important;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.collapse-control:hover {
+    font-weight: bold;
+}
+
+/* By default the show icon should disappear since the content is visible */
+.show-icon {
+    display: none;
+}
+
+.hide-icon {
+    display: inline-block;
+}
+
+/* If the collapse control button is clicked and the content disappears, the hide icon should disappear instead */
+.collapsed .show-icon {
+    display: inline-block;
+}
+
+.collapsed .hide-icon {
+    display: none;
+}
